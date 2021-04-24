@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+	<Browser LogicalName="ChromeBrowser" key="ChromeBrowser">
+			<Page LogicalName="GoogleHomePage" key="GoogleHomePage">
+				<WebEdit LogicalName="GoogleSearch" xpath="//*[@name='q']"></WebEdit>
+				<WebEdit LogicalName="GoogleSearch2" xpath="//*[@name='pq']"></WebEdit>			
+			</Page>	
+	</Browser>
+</root>

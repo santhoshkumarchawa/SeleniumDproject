@@ -1,0 +1,59 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-01-09T20:30:59.183Z",
+        "before": [
+          {
+            "result": {
+              "duration": 160000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefintions.StepDefintions.startReport()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Navigate to Google Home Page",
+        "description": "",
+        "id": "google-search-functionality;navigate-to-google-home-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8185000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I Open the Chrome Browser and Navigate to Google",
+            "match": {
+              "location": "StepDefintions.StepDefintions.i_open_the_chrome_browser_and_navigate_to_google()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1221000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Enter the Value in Google Search",
+            "match": {
+              "location": "StepDefintions.StepDefintions.Enter_Value_GoogleSearch()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Google Search Functionality",
+    "description": "",
+    "id": "google-search-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Featurefiles/OpenBrowser.feature",
+    "tags": []
+  }
+]
